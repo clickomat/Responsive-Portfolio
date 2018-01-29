@@ -13,7 +13,7 @@
     border-bottom-color: #dddddd;
     border-bottom-width: 2px;
     display: block;
-    width: 100%;
+    width: 90%;
 }
 
 .name {
@@ -170,7 +170,7 @@ a.linkImage {
 .footer{
     clear: both;
     background: #666666;
-    width: 100%;
+    width: 90%;
     border-top-color: #4aaaa5;
     border-top-width: 1.5em;
     margin-top:90px;
@@ -239,6 +239,99 @@ input{
     line-height: 3em;
     font-size: 16px;
 }
-@media screen {max-width: 980px;
-    
+
+/* Mediea querie 980 */
+@media screen and (max-width: 980px) {
+    body {
+        width: 90%;
+    }
+
+    .header {
+        width: 90%;
+    }
+.name{
+    font-size-adjust: 12px;
+}
+    header {
+        margin-right: 20px;
+    }
+
+    header {
+        height: auto;
+        width: 90%;
+        position: static;
+    }
+
+    .me{
+        display: block;
+        float: none;
+        margin: 0;
+        width: 90%;
+        height: unset;
+    }
+
+    .about {
+        width: auto;
+        float: none;
+    }
+
+    .connect {
+        width: auto;
+        float: none;
+    }
+
+    .content {
+        width: auto;
+        padding: 15px;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 90%;
+    }
+
+    .header {
+        width: 90%;
+    }
+
+    .contact {
+        margin-right: 20px;
+    }
+
+    .header {
+        height: auto;
+        width: 90%;
+        position: static;
+    }
+
+    .me{
+        float: left;
+        margin-right: 10px;
+        width: 90%;
+    }
+
+    .about {
+        width: auto;
+        float: none;
+    }
+    .line{
+        width:90%
+    }
+
+    .connect {
+        width: auto;
+        float: none;
+    }
+
+    .content {
+        width: auto;
+        padding: 15px;
+    }
+    .paragraph{
+        width:90%;
+    }
+    .footer{
+        width:90%;
+    }
 }
